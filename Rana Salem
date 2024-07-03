@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rana Salem - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rana Salem</h1>
+            <p>(415) 629-2847 | salemrana3@gmail.com</p>
+        </div>
+    </header>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>University of California, Los Angeles</strong><br>
+            Graduation: Jun 2025<br>
+            Major: Psychology</p>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+
+            <article>
+                <h3>Revenue Operations Intern - Skai | San Francisco, CA</h3>
+                <p>Jun 2023 - Sep 2023</p>
+                <ul>
+                    <li>Created a master repository of RFP documents to optimize Sales communication</li>
+                    <li>Engaged in shadowing across all sales cycle stages to meticulously map the customer journey from presale to renewal</li>
+                    <li>Analyzed customer sentiment and health scores, translated qualitative findings into actionable recommendations to improve customer experience and sales process</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Employee Communications Intern - Snowflake | San Mateo, CA</h3>
+                <p>Feb 2021 - Aug 2021</p>
+                <ul>
+                    <li>Facilitated monthly employee check-ins and progress reviews</li>
+                    <li>Assisted with the creation of bi-weekly informative videos for 3,000+ employees</li>
+                    <li>Worked to articulate the language used in both internal and external emails, websites, and videos</li>
+                </ul>
+            </article>
+
+            <!-- Add other work experiences similarly -->
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>Public Speaking, Interpersonal Communication, Leadership, Problem Solving, Critical thinking</p>
+            <p>Languages: Bilingual (Fluent in English, Intermediate in Arabic)</p>
+            <p>Computers: Salesforce, Excel (v-lookups, pivot tables, charts, etc.), Basic R, Google Workplace, MSFT Office</p>
+            <p>Certifications: Exploratory Data Analytics, Basic Excel proficiency, Python, Google IT support</p>
+        </div>
+    </section>
+
+    <section id="extracurriculars">
+        <div class="container">
+            <h2>Extracurriculars/Hobbies</h2>
+            <p>Arab Resource and Organizing Center (AROC) - Leading Member (Jul 2016-Present)</p>
+            <p>Unite Here 11 Labor Union - Volunteer (Sep 2021-Present)</p>
+            <p>UCLA Americorps Jumpstart - Corps Member (Dec 2022-Present)</p>
+            <p>UCLA Prisoned, Behind the Bars Conference - Fundraising Fellow (Aug 2023-Present)</p>
+            <p>Hiking, Boxing, Upcycling Clothes</p>
+        </div>
+    </section>
+
+    <section id="awards">
+        <div class="container">
+            <h2>Awards/Scholarships</h2>
+            <p>Dell Scholar</p>
+            <p>Good Tidings Community Service Scholar</p>
+            <p>Koshland Young Leader</p>
+            <p>Student Rising Above (SRA) Scholar</p>
+            <p>Segal Education Award</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rana Salem. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px 0;
+    background: #fff;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
